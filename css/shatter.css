@@ -10,12 +10,14 @@ body {
 }
 
 .btext {
+  font-family: "Cardo", serif;
   font-size: 40px;
 }
 .illegal {
+  font-family: "Oswald", sans-serif;
   width: 25%;
   color: red;
-  font-size: 60px;
+  font-size: 70px;
   word-break: break-word;
   text-align: center;
 }
