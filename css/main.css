@@ -1,5 +1,5 @@
 .buzz-container {
-  height: 100vh;
+  height: 120vh;
   width: 200vh;
   display: flex;
   justify-content: space-evenly;
@@ -17,7 +17,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0;
   padding-bottom: 100px;
   background-color: black;
