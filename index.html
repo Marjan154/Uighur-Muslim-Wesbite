@@ -1,35 +1,40 @@
-<link rel="stylesheet" href="./css/main.css" type="text/css" />
+<link rel="stylesheet" href="./css/glitch.css" type="text/css" />
 <link rel="stylesheet" href="./css/shatter.css" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+<link rel="stylesheet" href="./css/main.css" type="text/css" />
+<link rel="stylesheet" href="./css/animationintro.css" type="text/css" />
+<link
+  href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald"
+  rel="stylesheet"
+/>
 
 <html>
   <body>
-    <div class="buzz-container">
+    <div class="buzz-container slide1">
       What is happening in this world?
     </div>
-    <div class="buzz-container bg-black">
+    <div class="buzz-container bg-black slide2">
       <div class="glitch" data-text="FREEDOM?">
         FREEDOM?
       </div>
     </div>
 
-    <div class="buzz-container bg-black">
+    <div class="buzz-container bg-black slide3">
       <div class="wrapper">
         <h1><span>Rights?</span></h1>
       </div>
     </div>
 
-    <div class="buzz-container bg-black">
+    <div class="buzz-container bg-black slide4">
       <div class="glitch" data-text="CHOICES?">
         CHOICES?
       </div>
     </div>
-    <div class="buzz-container bg-shatter">
+    <div class="buzz-container bg-shatter slide5">
       <div>
         All gone.
       </div>
     </div>
-    <div class="buzz-container">
+    <div class="buzz-container slide6">
       <div class="illegal">
         For Muslims in China these actions are <span style="text-decoration: line-through; color:red;">Il</span></span>legal
         
@@ -41,7 +46,26 @@
         <li>Forcing people to renounce Islam</li>
         <li>More stuff</li>
       </ul>
+      <div class="landing-buttons">
+        <!-- <button> Nah I'm too busy right now</button>
+        <button>Continue Reading</button> -->
+        <input
+          type="button"
+          onclick="location.href='./src/ignore.html';"
+          value="Nah I'm too busy right now"
+        />
+        <input
+          type="button"
+          onclick="location.href='./src/read.html';"
+          value="Continue Reading"
+        />
+      </div>
     </div>
+
     
   </body>
 </html>
+
+<script>
+  function continueReading() {}
+</script>
