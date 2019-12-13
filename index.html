@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="./css/shatter.css" type="text/css" />
 <link rel="stylesheet" href="./css/main.css" type="text/css" />
 <link rel="stylesheet" href="./css/animationintro.css" type="text/css" />
+<link rel="stylesheet" href="./css/navbar.css" type="text/css" />
 <link
   href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald"
   rel="stylesheet"
@@ -34,38 +35,93 @@
         All gone.
       </div>
     </div>
-    <div class="buzz-container slide6">
-      <div class="illegal">
-        For Muslims in China these actions are <span style="text-decoration: line-through; color:red;">Il</span></span>legal
-        
+    <div class="buzz-container bg-partial slide6">
+      <div
+        style="font-size:50px;color:white; width:100vw; height:40vh; padding: 6vh;"
+      >
+        The Uighur Muslims in China are being abused. People are suffering.
       </div>
-      <ul class="btext">
+      <div style="font-size:50px;color:white; width:100vw;">
+        Read more
+      </div>
+
+      <!-- <ul class="btext">
         <li>Concentration camps</li>
         <li>Harvesting organs</li>
         <li>Rape</li>
         <li>Forcing people to renounce Islam</li>
         <li>More stuff</li>
-      </ul>
+      </ul> -->
       <div class="landing-buttons">
-        <!-- <button> Nah I'm too busy right now</button>
-        <button>Continue Reading</button> -->
-        <input
+        <!-- <input
           type="button"
           onclick="location.href='./src/ignore.html';"
           value="Nah I'm too busy right now"
-        />
+        /> -->
         <input
           type="button"
-          onclick="location.href='./src/read.html';"
-          value="Continue Reading"
+          value="▼"
+          onClick="continueReading()"
+          id="scroll-arrow"
         />
       </div>
     </div>
-
-    
+    <div id="read" style="display:none;">
+      <div class="content">
+        <div id="nav-container">
+          <nav className="nav">
+            <ul>
+              <li>
+                <a
+                  href="https://fmundergrad.hunter.cuny.edu/~ansarm/medp285/"
+                  target="_blank"
+                >
+                  Information
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://fmundergrad.hunter.cuny.edu/~ansarm/medp285/"
+                  target="_blank"
+                >
+                  Information2
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://fmundergrad.hunter.cuny.edu/~ansarm/medp285/"
+                  target="_blank"
+                >
+                  Gallery
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        CONTENT Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+        quas ipsam quaerat, veritatis, tempora culpa in et dolor facilis nemo
+        fugit deleniti itaque, obcaecati maiores! Laboriosam error corporis sit
+        id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime id
+        voluptates aut quia tenetur magni natus! Suscipit doloremque quis harum,
+        debitis ipsam reprehenderit corporis, temporibus soluta ratione
+        accusantium magni vel. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Aperiam magni ipsa, molestias eveniet quaerat aliquam
+        vero a dicta atque reprehenderit? Hic sit beatae velit quo, dolorum
+        reiciendis. Consequatur, illum libero. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Alias cupiditate corporis sit officia
+        earum esse asperiores aperiam recusandae accusantium, possimus ipsam ea
+        nulla corrupti eius! Debitis nemo labore iure cumque.
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
 
 <script>
-  function continueReading() {}
+  function continueReading() {
+    document.getElementById("read").style.display = "block";
+    document.getElementsByTagName("body")[0].style.overflow = "scroll";
+    document.getElementById("read").scrollIntoView();
+  }
 </script>

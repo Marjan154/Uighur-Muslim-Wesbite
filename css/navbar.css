@@ -2,8 +2,10 @@
 
 #nav-container {
   width: 100%;
-  background: transparent;
+  height: 100px;
+  background: white;
   float: right;
+  position: relative;
 }
 nav {
   height: 30px;
@@ -11,7 +13,7 @@ nav {
   margin: 0;
 }
 nav ul {
-  top: 0;
+  /* top: 0; */
   float: right;
   list-style-type: none;
   margin: 0;
@@ -50,9 +52,9 @@ nav li a:hover {
 }
 
 .content {
-  padding-top: 150px;
-  /* position: absolute; */
-  top: 170px;
+  /* padding-top: 150px; */
+  position: absolute;
+  /* top: 170px; */
 }
 
 .content div {
