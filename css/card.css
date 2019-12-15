@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 .card-container {
   display: flex;
   flex-flow: row wrap;
@@ -19,12 +20,26 @@
   justify-content: center;
   border: 1px solid lightgrey;
   width: 370px;
-  height: 300px;
+  height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   transition: all 0.4s ease-in-out;
+  font-family: "Noto Sans", sans-serif;
 }
+
 .cardbox:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease-in-out;
+}
+
+a {
+  text-decoration: none !important;
+  color: #bf1313;
+}
+.cardbox img {
+  min-width: 99%;
+  height: auto;
+  max-height: 250px;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: cover;
 }
