@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
 #nav-container {
-  width: 100%;
+  width: 100vw;
   height: 100px;
   background: white;
   float: right;
-  position: relative;
+  position: fixed;
+  /* bottom: 90%; */
+  /* background-color: transparent;
+  background-image: none; */
+  top: 0%;
 }
 nav {
   height: 30px;
@@ -34,8 +39,8 @@ nav li {
 }
 nav li a {
   display: inline-block;
-  color: Black;
-  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 1000;
   margin: 10%;
   padding: 10px;
@@ -51,15 +56,13 @@ nav li a:hover {
   -o-animation: bounce 2.5s infinite;
 }
 
-.content {
-  /* padding-top: 150px; */
+/* .content {
   position: absolute;
-  /* top: 170px; */
-}
+} */
 
-.content div {
+/* .content div {
   height: 100vh;
-}
+} */
 /* 
 @-webkit-keyframes bounce {
   0%,
