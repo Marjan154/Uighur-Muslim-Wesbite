@@ -17,6 +17,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  overflow: hidden;
 }
 
 .slide3 {
@@ -27,6 +28,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  overflow: hidden;
 }
 
 .slide4 {
@@ -37,6 +39,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  overflow: hidden;
 }
 
 .slide5 {
@@ -47,12 +50,13 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  overflow: hidden;
 }
 
 .slide6 {
   animation-name: fadein;
   animation-duration: 3s;
-  animation-delay: 25s;
+  animation-delay: 24s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -68,7 +72,7 @@
   30%,
   80% {
     opacity: 1;
-    position: relative;
+    position: absolute;
   }
 }
 
