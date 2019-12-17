@@ -45,18 +45,19 @@
 .slide5 {
   position: absolute;
   animation-name: fadeinout;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-delay: 20s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   overflow: hidden;
+  background-color: black;
 }
 
 .slide6 {
   animation-name: fadein;
   animation-duration: 3s;
-  animation-delay: 24s;
+  animation-delay: 25s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
