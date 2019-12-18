@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
 .slide1 {
-  font-size: 40px;
+  font-size: 70px;
   position: absolute;
+  font-family: sans-serif;
   animation-name: fadeinout;
   animation-duration: 7s;
   animation-iteration-count: 1;
@@ -43,6 +45,7 @@
 }
 
 .slide5 {
+  font-family: sans-serif;
   position: absolute;
   animation-name: fadeinout;
   animation-duration: 3s;
@@ -57,7 +60,7 @@
 .slide6 {
   animation-name: fadein;
   animation-duration: 3s;
-  animation-delay: 25s;
+  animation-delay: 23s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
