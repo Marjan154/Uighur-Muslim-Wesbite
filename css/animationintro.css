@@ -4,7 +4,7 @@
   position: absolute;
   font-family: sans-serif;
   animation-name: fadeinout;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -14,7 +14,7 @@
 .slide2 {
   position: absolute;
   animation-name: fadeinout;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-delay: 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -25,8 +25,8 @@
 .slide3 {
   position: absolute;
   animation-name: fadeinout;
-  animation-duration: 5s;
-  animation-delay: 10s;
+  animation-duration: 4s;
+  animation-delay: 9s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -36,8 +36,8 @@
 .slide4 {
   position: absolute;
   animation-name: fadeinout;
-  animation-duration: 5s;
-  animation-delay: 15s;
+  animation-duration: 4s;
+  animation-delay: 13s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -48,8 +48,8 @@
   font-family: sans-serif;
   position: absolute;
   animation-name: fadeinout;
-  animation-duration: 3s;
-  animation-delay: 20s;
+  animation-duration: 4s;
+  animation-delay: 17s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -60,7 +60,7 @@
 .slide6 {
   animation-name: fadein;
   animation-duration: 3s;
-  animation-delay: 23s;
+  animation-delay: 21s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
